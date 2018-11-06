@@ -44,7 +44,6 @@ def full?(board)
 end
 
 def draw?(board)
-<<<<<<< HEAD
    full?(board) && !won?(board) 
 end
 
@@ -64,4 +63,3 @@ end
   else
     false
 end
->>>>>>> 64a16fac039adde9926d1c1a7a721c38744d75f3
