@@ -44,6 +44,7 @@ def full?(board)
 end
 
 def draw?(board)
+<<<<<<< HEAD
    full?(board) && !won?(board) 
 end
 
@@ -57,3 +58,10 @@ def winner(board)
   end
 end
   
+=======
+  if full?(board) == true && won?(board) == false
+    true
+  else
+    false
+end
+>>>>>>> 64a16fac039adde9926d1c1a7a721c38744d75f3
