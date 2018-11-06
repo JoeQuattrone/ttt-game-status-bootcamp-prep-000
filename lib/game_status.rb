@@ -53,10 +53,11 @@ end
   
 def winner(board)
   if won?(board)
-    won?(board)[0]
+    won?(board)[0]]
   end
 end
-  
+
+def draw  
   if full?(board) == true && won?(board) == false
     true
   else
